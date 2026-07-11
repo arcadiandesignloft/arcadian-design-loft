@@ -1,18 +1,11 @@
-# Arcadian Design Loft
+# Arcadian Design Loft — Final Website
 
-Official static website for Arcadian Design Loft in Tripoli, Greece.
+## Preview
+Open `index.html` in your browser.
 
-## Publish with GitHub Pages
+## Update the existing GitHub repository
+Upload all files and the `assets` folder to the root of the repository.
+When GitHub asks, replace the existing files and commit the changes.
 
-1. Upload all files and folders in this project to the root of the repository.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**.
-5. Save.
-
-The site will be available at:
-`https://arcadiandesignloft.github.io/arcadian-design-loft/`
-
-## Custom domain
-
-After the site works, add your custom domain in **Settings → Pages → Custom domain**.
+## GitHub Pages
+Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.

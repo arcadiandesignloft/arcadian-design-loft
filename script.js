@@ -24,8 +24,8 @@ const allImages=[
  'assets/images/living-hero.jpg','assets/images/living-wide.jpg',
  'assets/images/living-kitchen.jpg','assets/images/living-tv.jpg',
  'assets/images/kitchen.jpg','assets/images/bathroom.jpg',
- 'assets/images/bedroom-1.jpg','assets/images/detail-chair.jpg',
- 'assets/images/bedroom-entry.jpg','assets/images/living-main.jpg',
+ 'assets/images/bedroom-1.jpg',
+ 'assets/images/bedroom-entry.jpg','assets/images/living-replacement.jpg',
  'assets/images/vanity.jpg','assets/images/bedroom-2.jpg',
  'assets/images/balcony-square.jpg','assets/images/balcony-view.jpg'
 ];
@@ -49,3 +49,5 @@ addEventListener('keydown',e=>{
  if(e.key==='ArrowLeft')document.getElementById('prev').click();
  if(e.key==='ArrowRight')document.getElementById('next').click();
 });
+
+window.addEventListener('load',()=>setTimeout(()=>document.getElementById('loader')?.classList.add('hidden'),700));const floatingBook=document.querySelector('.floating-book');addEventListener('scroll',()=>floatingBook?.classList.toggle('show',scrollY>520));
