@@ -21,11 +21,11 @@ toggle.addEventListener('click',()=>{
 });
 
 const galleryCategories={
-  living:Array.from({length:22},(_,i)=>`assets/gallery/living/living-${String(i+1).padStart(2,'0')}.jpg`),
-  bedroom1:Array.from({length:6},(_,i)=>`assets/gallery/bedroom1/bedroom1-${String(i+1).padStart(2,'0')}.jpg`),
-  bedroom2:Array.from({length:7},(_,i)=>`assets/gallery/bedroom2/bedroom2-${String(i+1).padStart(2,'0')}.jpg`),
-  bathroom:Array.from({length:5},(_,i)=>`assets/gallery/bathroom/bathroom-${String(i+1).padStart(2,'0')}.jpg`),
-  balcony:Array.from({length:13},(_,i)=>`assets/gallery/balcony/balcony-${String(i+1).padStart(2,'0')}.jpg`)
+  living:Array.from({length:22},(_,i)=>`living-${String(i+1).padStart(2,'0')}.jpg`),
+  bedroom1:Array.from({length:6},(_,i)=>`bedroom1/bedroom1-${String(i+1).padStart(2,'0')}.jpg`),
+  bedroom2:Array.from({length:7},(_,i)=>`bedroom2/bedroom2-${String(i+1).padStart(2,'0')}.jpg`),
+  bathroom:Array.from({length:5},(_,i)=>`bathroom/bathroom-${String(i+1).padStart(2,'0')}.jpg`),
+  balcony:Array.from({length:13},(_,i)=>`balcony/balcony-${String(i+1).padStart(2,'0')}.jpg`)
 };
 const allImages=[...galleryCategories.living,...galleryCategories.bedroom1,...galleryCategories.bedroom2,...galleryCategories.bathroom,...galleryCategories.balcony];
 let activeImages=allImages;
